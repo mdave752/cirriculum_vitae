@@ -1,0 +1,18 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+body {
+	min-height: 100vh;
+	padding: 0;
+}
+.outer-block {
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+}
+
+#snakeCanva {
+	border: 1px solid #b1b3b3;
+}
